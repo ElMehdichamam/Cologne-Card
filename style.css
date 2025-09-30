@@ -11,14 +11,14 @@ body{
     align-items: center;
     background-color: var(--Cream);
 }
-
-.main{
-   overflow: hidden;
+ .main{
+    overflow: hidden;
   /* border: solid 1px; */
   width: 499px;
   height: 380px;
   border-radius: 10px;
  display: flex;
+
 
 }
 .img{
@@ -103,5 +103,7 @@ body{
 
 .btn:hover{
     background-color: var(--Green-700);
+    animation-duration: 3s;
+    animation: normal;
+    
 }
-
