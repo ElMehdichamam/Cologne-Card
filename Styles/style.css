@@ -24,7 +24,7 @@ body{
 .img{
     width: 50%;
     /* background-color: black; */
-    background-image: url(/Images/image-product-desktop.jpg);
+    background-image: url(../Images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -107,3 +107,8 @@ body{
     animation: normal;
     
 }
+/* @media screen and (max-width:375px){
+    .main{
+        display: block;
+    }
+} */
